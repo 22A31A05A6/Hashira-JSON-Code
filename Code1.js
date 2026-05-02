@@ -1,5 +1,3 @@
-// Recover the constant term c = P(0) from shares using Lagrange interpolation at x=0.
-// Shares are given as: { [x]: { base: "b", value: "digitsInBaseB" }, ... }
 
 function parseInBaseToBigInt(str, base) {
   const b = BigInt(base);
